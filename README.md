@@ -45,7 +45,7 @@ Problem 2 teaches students how to use subsetting, slicing, and indexing in Panda
  
 	print("First Five Rows with Odd-Numbered Columns:")
  
-	display(cars.iloc[:5, ::2])
+	display(cars.iloc[:5, 1::2])
  
 
 	# (b) Show the row where the car model is 'Mazda RX4'
@@ -59,7 +59,7 @@ Problem 2 teaches students how to use subsetting, slicing, and indexing in Panda
  
 	print("\nNumber of cylinders for Camaro Z28:")
  
-	print(cars.loc[cars['Model'] == 'Camaro Z28', 'cyl'])
+	print(cars.loc[df["Model"] == "Camaro Z28", "cyl"].values[0])
 
 
 	# (d) Show cylinders and gear type for 3 specific car models
