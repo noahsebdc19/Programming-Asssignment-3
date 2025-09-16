@@ -1,5 +1,3 @@
-This experiment is about learning to use the Pandas Library in Python to analyze data. Pandas helps students organize, manage, and study extensive data sets using DataFrames. The students practice loading data, displaying information, and extracting details in this activity. The experiment aims to give them hands-on experience in data analysis, as well as valuable engineering and programming skills.
-
 # Problem 1
 In Problem 1, you will be guided through the fundamental steps for working with data in Pandas. You will load a CSV file into a DataFrame and display the first five and last five rows. This step checks whether the data is loaded correctly and gives a quick snapshot of the dataset. It serves as the starting point of the experiment and ensures that you know how to view data using Pandas.
 
