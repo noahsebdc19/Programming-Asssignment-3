@@ -64,4 +64,4 @@ Problem 2 teaches students how to use subsetting, slicing, and indexing in Panda
  
 	print("\nCylinders and gear type for Mazda RX4 Wag, Ford Pantera L, and Honda Civic:")
  
-	display(cars.loc[cars['Model'].isin(['Mazda RX4 Wag', 'Ford Pantera L', 'Honda Civic']), ['Model', 'cyl', 'gear']])
+	display(cars.loc[[1, 18, 28], ['Model', 'cyl', 'gear']])
