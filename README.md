@@ -57,7 +57,7 @@ Problem 2 teaches students how to use subsetting, slicing, and indexing in Panda
  
 	print("\nNumber of cylinders for Camaro Z28:")
  
-	print(cars.loc[df["Model"] == "Camaro Z28", "cyl"].values[0])
+	display(cars.loc[[23], ['Model', 'cyl']])
 
 
 	# (d) Show cylinders and gear type for 3 specific car models
