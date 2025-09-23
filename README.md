@@ -1,7 +1,7 @@
 # Problem 1
 In Problem 1, you will be guided through the fundamental steps for working with data in Pandas. You will load a CSV file into a DataFrame and display the first five and last five rows. This step checks whether the data is loaded correctly and gives a quick snapshot of the dataset. It serves as the starting point of the experiment and ensures that you know how to view data using Pandas.
 
-Load the pandas library
+Load pandas library
  
 	import pandas as pd   
 
